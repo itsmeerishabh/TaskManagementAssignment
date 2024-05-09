@@ -1,0 +1,81 @@
+.login{
+    height: 500px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.575);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 52%;
+    left: 60%;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    border: 2px solid rgba(255, 255, 255, 0.507);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+    }
+
+.register{
+    height: 500px;
+    width: 550px;
+    background-color: rgba(255, 255, 255, 0.575);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 52%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    border: 2px solid rgba(255, 255, 255, 0.507);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+    }
+
+    .employeeEnter{
+        height: 850px;
+        width: 550px;
+        background-color: rgba(255, 255, 255, 0.575);
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 72%;
+        left: 50%;
+        border-radius: 10px;
+        backdrop-filter: blur(2px);
+        border: 2px solid rgba(255, 255, 255, 0.507);
+        box-shadow: 0 0 40px rgba(8,7,16,0.6);
+        padding: 50px 35px;
+        }
+
+
+    .fullscreen-image {
+        /* Set the width and height to cover the entire viewport */
+        width: 100vw;
+        height: 100vh;
+        
+        /* Set the background image URL */
+        /*background-image: url('your-image-url.jpg'); */ /* Replace with your image URL */
+        
+        /* Make the image cover the entire area and preserve its aspect ratio */
+        background-size: cover;
+        
+        /* Center the image */
+        background-position: center;
+        
+        /* Prevent the image from repeating */
+        background-repeat: no-repeat;
+        
+        /* Fix the div to the viewport */
+        position: fixed;
+        top: 0;
+        left: 0;
+        
+        /* Set the z-index to ensure it is behind other elements */
+        z-index: -1;
+    }
+
+    .name{
+        margin-top:1px;
+       color:rgb(232, 95, 21);
+       margin-right: 90px;
+       font-style: italic;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: 20px;
+     }
+    
